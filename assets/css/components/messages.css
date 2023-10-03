@@ -1,0 +1,36 @@
+.messages {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  left: 0.5rem;
+  position: fixed;
+  top: 1rem;
+}
+
+.message {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0.25rem;
+  padding: 0.5rem;
+}
+
+.message--error {
+  background-color: #ffaaaa;
+  color: red;
+}
+
+.message--success {
+  background-color: #aaffaa;
+  color: green;
+}
+
+.message--info {
+  background-color: #aaaaff;
+  color: blue;
+}
+
+.message--warn {
+  background-color: #ffffaa;
+  color: orange;
+}

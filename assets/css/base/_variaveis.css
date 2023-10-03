@@ -1,0 +1,14 @@
+:root {
+  --fonte-principal: "Raleway", sans-serif;
+
+  --branco: #fff;
+  --cinza-claro: #f5f5f5;
+  --cinzaE5: #e5e5e5;
+  --cinza-fraco: #c8c8c8;
+  --cinza-medio: #a2a2a2;
+  --cinza-fonte: #464646;
+  --azul-claro: #d4e4fa;
+  --azul: #2a7ae4;
+  --azul-medio: #5595e9;
+  --azul-claro: #eaf2fd;
+}

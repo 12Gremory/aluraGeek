@@ -1,0 +1,51 @@
+.entrada {
+  background-color: var(--branco);
+  border: 0;
+  border-bottom: 1px solid var(--cinza-fraco);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  color: var(--cinza-fonte);
+  display: block;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  width: 100%;
+}
+
+.entrada::placeholder {
+  color: var(--cinza-medio);
+}
+
+.entrada--arendondada {
+  background-color: var(--cinza-claro);
+  border: 0;
+  border-radius: 1rem;
+  color: var(--cinza-fonte);
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 1rem;
+  margin-right: auto;
+  max-width: 24.6rem;
+  padding: 0.5rem 0 0.5rem 1rem;
+  width: 35%;
+}
+
+.entrada--arendondada::placeholder {
+  color: var(--cinza-medio);
+  font-size: 0.875rem;
+}
+
+.lupa-a-direita::placeholder {
+  background: url(../../img/Lupa-Input.svg) no-repeat;
+  background-position: 100%;
+  background-size: contain;
+}
+
+@media screen and (min-width: 1024px) {
+  .entrada {
+    margin-bottom: 2rem;
+  }
+}

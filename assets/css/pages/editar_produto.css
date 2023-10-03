@@ -1,0 +1,59 @@
+@import url(../base/base.css);
+@import url(../components/botao.css);
+@import url(../components/entrada.css);
+@import url(../components/campo.css);
+@import url(../components/cabecalho.css);
+@import url(../components/rodape.css);
+@import url(../components/contato.css);
+
+.container {
+  background-color: var(--cinza-claro);
+}
+
+.formulario-produto {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 17.2rem;
+  padding: 5.3rem 0;
+  width: 100%;
+}
+
+.formulario-produto__titulo {
+  color: var(--cinza-fonte);
+  font-weight: 700;
+  line-height: 1rem;
+  margin: 0.5rem 0;
+}
+
+.formulario-produto .botao {
+  width: 100%;
+}
+
+.campo__prefixo {
+  bottom: 1.6rem;
+  left: 1rem;
+  position: absolute;
+  width: 2.5rem;
+}
+.campo__prefixo + .entrada {
+  padding-left: 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .formulario-produto {
+    max-width: 26.75rem;
+  }
+
+  .formulario-produto__titulo {
+    font-size: 1.125rem;
+    line-height: 1.31rem;
+    margin: 1rem 0;
+  }
+  .campo__prefixo {
+    bottom: 3.2rem;
+  }
+}
